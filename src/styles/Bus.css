@@ -1,0 +1,41 @@
+.bus-details-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .bus-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  .bus-table th, .bus-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .bus-table th {
+    background: #007bff;
+    color: white;
+  }
+  
+  .add-bus-btn {
+    background: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .add-bus-btn:hover {
+    background: #218838;
+  }
+  
