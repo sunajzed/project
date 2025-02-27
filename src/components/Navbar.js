@@ -10,7 +10,7 @@ const Navbar = ({ token, setToken }) => {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="brand">Kerala Bus API</Link>
+      <Link to="/" className="brand">Kerala Bus </Link>
       <div className="nav-links">
         {!token ? (
           <>
